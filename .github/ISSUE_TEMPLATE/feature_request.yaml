@@ -1,0 +1,13 @@
+name: Feature Request
+description: A feature you would like added to the application
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: "Tell us what feature you would like added"
+    render: bash
+  validations:
+    required: true
